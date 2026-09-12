@@ -6,7 +6,9 @@
 
 16 year old software engineer focused on backend systems, service boundaries, concurrency, and load-oriented architecture. I build reliable apis, workers, and data flows, with frontend work where the product requires it.
 
-[mailorq.com](https://mailorq.com)
+**Languages:** English (B1/B2) • Russian (Native) • Ukrainian (Native)
+
+**Bio:** [mailorq.com](https://mailorq.com)
 
 ---
 
