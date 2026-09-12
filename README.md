@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="sayo-yasuda.jpg" alt="sayo-yasuda" width="100%" />
+  <img src="battlers-conclution.jpg" alt="profile art" width="100%" />
 </p>
 
 ### about
