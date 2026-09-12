@@ -13,7 +13,7 @@
 ### skills
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=py,rust,ts,js,django,fastapi,tauri,react,docker,postgres,redis,kafka,rabbitmq,linux&theme=dark" alt="core skills" />
+  <img src="https://skillicons.dev/icons?i=py,rust,ts,js,django,fastapi,tauri,react,docker,postgres,redis,kafka,rabbitmq,linux&theme=dark" alt="skills" />
 </p>
 
 - **languages**: Python • Rust • TypeScript • JavaScript • SQL • Lua • POSIX shell
@@ -21,11 +21,11 @@
 - **data & storage**: PostgreSQL • Redis • SQLite/SQLCipher • SQLAlchemy • Alembic • S3 compatible storage
 - **devops & systems**: Docker • Docker Compose • Kubernetes (basic) • Nginx • Prometheus • GitHub Actions • Linux
 - **frontend & clients**: React • Vite • Tailwind CSS • React Router • Tauri 
-- **testing & reliability**: Pytest • Locust • Vitest • Playwright • Ruff • MyOy • Rate Limiting • CSRF/Session Auth • JWT/RS256
+- **testing & reliability**: Pytest • Locust • Vitest • Playwright • Ruff • MyPy • Rate Limiting • CSRF/Session Auth • JWT/RS256
 
 ---
 
-### featured projects
+### projects
 
 #### [Asian Restaurant](https://github.com/mailorq/asian_restaurant)
 
