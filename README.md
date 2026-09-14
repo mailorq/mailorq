@@ -15,13 +15,13 @@
 ### skills
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=py,rust,ts,js,django,fastapi,tauri,react,docker,postgres,redis,kafka,rabbitmq,linux&theme=dark" alt="skills" />
+  <img src="https://skillicons.dev/icons?i=py,rust,ts,js,django,fastapi,tauri,react,git,docker,postgres,redis,kafka,rabbitmq,linux&theme=dark" alt="skills" />
 </p>
 
 - **languages**: Python • Rust • TypeScript • JavaScript • SQL • Lua • POSIX shell
-- **backend & architecture**: Django • Django Ninja • DRF • FastAPI • REST/OpenAPI • WebSockets • Celery • RabbitMQ • Kafka • Redis • Transactional Outbox • Idempotency • Optimistic Concurrency • Microservices • Monoliths
+- **backend & architecture**: Django • Django Ninja • DRF • FastAPI • REST/OpenAPI • WebSockets • Celery • RabbitMQ • Kafka • Redis • gRPC • Transactional Outbox • Idempotency • Optimistic Concurrency • Microservices • Monoliths
 - **data & storage**: PostgreSQL • Redis • SQLite/SQLCipher • SQLAlchemy • Alembic • S3 compatible storage
-- **devops & systems**: Docker • Docker Compose • Kubernetes (basic) • Nginx • Prometheus • GitHub Actions • Linux
+- **devops & systems**: Docker • Docker Compose • Kubernetes (basic) • Nginx • Prometheus • GitHub Actions • GitLab CI/CD • Linux
 - **frontend & clients**: React • Vite • Tailwind CSS • React Router • Tauri 
 - **testing & reliability**: Pytest • Locust • Vitest • Playwright • Ruff • MyPy • Rate Limiting • CSRF/Session Auth • JWT/RS256
 
