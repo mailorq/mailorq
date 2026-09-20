@@ -15,15 +15,19 @@
 ### skills
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=py,rust,ts,js,django,fastapi,tauri,react,git,docker,postgres,redis,kafka,rabbitmq,linux&theme=dark" alt="skills" />
+  <img src="https://skillicons.dev/icons?i=py,rust,ts,js,django,fastapi,react,git,docker,nginx,postgres,redis,kafka,rabbitmq,linux&theme=dark" alt="skills" />
 </p>
 
-- **languages**: Python • Rust • TypeScript • JavaScript • SQL • Lua • POSIX shell
-- **backend & architecture**: Django • Django Ninja • DRF • FastAPI • REST/OpenAPI • WebSockets • Celery • RabbitMQ • Kafka • Redis • gRPC • Transactional Outbox • Idempotency • Optimistic Concurrency • Microservices • Monoliths
-- **data & storage**: PostgreSQL • Redis • SQLite/SQLCipher • SQLAlchemy • Alembic • S3 compatible storage
+- **languages**: Python • Rust • TypeScript • JavaScript • Lua • POSIX shell
+- **backend frameworks & runtimes**: Django • Django Ninja • DRF • FastAPI • Tokio/Axum
+- **api & networking**: REST/OpenAPI • WebSockets • gRPC • HTTPX
+- **asynchronous & messaging**: Celery • RabbitMQ • Apache Kafka • Redis Pub/Sub
+- **databases & storage & orm**: SQL • PostgreSQL • Redis • SQLite/SQLCipher • SQLAlchemy • Alembic • MinIO • S3
+- **architecture & reliability patterns**: Service Layer • CQRS-style Read Models • Transactional Outbox • Idempotency • Optimistic Concurrency • State Machines
+- **security & authentication**: Zero-Trust (client/service boundaries) • Fail-Closed Checks • Session/CSRF Authentication • JWT/RS256 • Rate Limiting
+- **frontend & clients**: React • Vite • Tailwind CSS • Tauri
 - **devops & systems**: Docker • Docker Compose • Kubernetes (basic) • Nginx • Prometheus • GitHub Actions • GitLab CI/CD • Linux
-- **frontend & clients**: React • Vite • Tailwind CSS • React Router • Tauri 
-- **testing & reliability**: Pytest • Locust • Vitest • Playwright • Ruff • MyPy • Rate Limiting • CSRF/Session Auth • JWT/RS256
+- **testing & tooling**: Pytest • Locust • Vitest • Playwright • Ruff • MyPy • ESLint • Gitleaks
 
 ---
 
@@ -63,5 +67,5 @@ A ready-to-deploy Hyprland and Wayland desktop setup with a visual theme, status
 ### activity
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mailorq&theme=dark&hide_border=true" alt="GitHub streak" width="65%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=mailorq&theme=dark&hide_border=true" alt="GitHub streak" width="65%" />
 </p>
