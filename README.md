@@ -23,8 +23,8 @@
 - **api & networking**: REST/OpenAPI • WebSockets • gRPC • HTTPX
 - **asynchronous & messaging**: Celery • RabbitMQ • Apache Kafka • Redis Pub/Sub
 - **databases & storage & orm**: SQL • PostgreSQL • Redis • SQLite/SQLCipher • SQLAlchemy • Alembic • MinIO • S3
-- **architecture & reliability patterns**: Service Layer • CQRS-style Read Models • Transactional Outbox • Idempotency • Optimistic Concurrency • State Machines
-- **security & authentication**: Zero-Trust (client/service boundaries) • Fail-Closed Checks • Session/CSRF Authentication • JWT/RS256 • Rate Limiting
+- **architecture & patterns**: Service Layer • CQRS • Transactional Outbox • Idempotency • Optimistic Concurrency • State Machines
+- **security & authentication**: Zero-Trust • Fail-Closed Checks • Session/CSRF Authentication • JWT/RS256 • Rate Limiting
 - **frontend & clients**: React • Vite • Tailwind CSS • Tauri
 - **devops & systems**: Docker • Docker Compose • Kubernetes (basic) • Nginx • Prometheus • GitHub Actions • GitLab CI/CD • Linux
 - **testing & tooling**: Pytest • Locust • Vitest • Playwright • Ruff • MyPy • ESLint • Gitleaks
