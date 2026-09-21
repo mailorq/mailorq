@@ -15,7 +15,7 @@
 ### skills
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=py,rust,ts,js,django,fastapi,react,git,docker,nginx,postgres,redis,kafka,rabbitmq,linux&theme=dark" alt="skills" />
+  <img src="https://skillicons.dev/icons?i=py,rust,ts,js,django,fastapi,git,docker,nginx,postgres,redis,kafka,rabbitmq,linux&theme=dark" alt="skills" />
 </p>
 
 - **languages**: Python • Rust • TypeScript • JavaScript • Lua • POSIX shell
@@ -35,32 +35,32 @@
 
 #### [Asian Restaurant](https://github.com/mailorq/asian_restaurant)
 
-**Event-Driven Ordering Platform** - *Personal project · backend & architecture*
+**Event-Driven Ordering Platform** - *Personal project*
 
-A web app for ordering pan-asian food: users browse the menu, manage a cart, place orders, and view their order history; staff can manage orders, inventory, and customer data. The system combines a Django backend, React frontend, separate operations service, PostgreSQL, Redis, and RabbitMQ.
+A Django/Django Ninja ordering system split between ordering and operations services, backed by PostgreSQL, Redis, and RabbitMQ. Its backend centers on concurrent cart updates, safe checkout, and event-driven operations read models.
 
-- Lua-backed Redis cart operations handle concurrent updates, guest-to-user merging, and stock reconciliation.
-- Checkout protects inventory with row locks and idempotency checks.
-- Order events use a transactional outbox before publishing to RabbitMQ.
+- Redis Lua scripts implement versioned cart updates, guest-cart merging, and stock reconciliation.
+- Checkout combines database row locks with idempotency checks to prevent overselling and duplicate order creation.
+- A transactional outbox publishes to RabbitMQ; lease-based retry workers feed idempotent, version-fenced operations projections.
 
-#### [Steins;Gate Fan Platform](https://github.com/mailorq/SteinsGate_project)
+#### [Steins;Gate Platform](https://github.com/mailorq/SteinsGate_project)
 
-**Full-Stack Web Application** - *Personal project · complete*
+**Anime Content Web Platform** - *Personal project*
 
-A fan website for watching the full *Steins;Gate* anime series and movie, tracking viewing progress, rating titles, and discussing episodes through comments. It combines a typed React frontend with a Django backend and a production-shaped Docker deployment.
+A *Steins;Gate* fan platform, built with Django Ninja, PostgreSQL, and Redis; implementation focuses on shared abuse controls, secure session flows, and consistency-aware caching.
 
-- The OpenAPI schema generates the typed frontend API client.
-- Redis provides shared rate limits, lockout controls, and aggregate caching.
-- The repository includes CSRF-protected session flows, email verification, CI checks, and a Locust load-test scenario.
+- Redis fixed-window rate limits and escalating IP lockouts are shared across workers; authentication checks fail closed when Redis is unavailable.
+- Email verification pairs HMAC-hashed codes and nonces with an on-commit Celery outbox, Beat reconciliation, and quota-enforced resend controls.
+- Cache-aside aggregate reads pair with database deduplication and PostgreSQL advisory locks for 24-hour view counting.
 
 #### [Hyprland Dots](https://github.com/mailorq/hyprland-dots)
 
-**Linux Desktop Configuration & Release Tooling** - *Additional project*
+**Linux Desktop Configuration** - *Additional project*
 
-A ready-to-deploy Hyprland and Wayland desktop setup with a visual theme, status bar profiles, launcher, terminal, notifications, and wallpaper management. It also provides a controlled installer for applying the configuration without touching unrelated system files.
+A modular Hyprland configuration distributed through a checksum-verified POSIX installer, with Lua configuration and Python release tooling.
 
-- The POSIX installer supports dry runs, preflight checks, backups, atomic publication, and restore.
-- Python generators and validators produce component configs, SHA-256 deployment manifests, and release gates.
+- The installer defaults to dry-run, validates conflicts, supports backups and restore, and publishes files via atomic per-file rename.
+- Python generators and validators produce component configs and SHA-256 manifests used by release gates.
 
 ---
 
