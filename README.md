@@ -6,7 +6,7 @@
 
 Software engineer specializing in backend systems, service boundaries, and concurrency-heavy workloads. I build reliable apis, event-driven worker pipelines, and resilient data flows, supporting full-stack delivery when needed.
 
-**Languages:** English (B1/B2) • Russian (Native) • Ukrainian (Native)
+**Languages:** English (B2) • Russian (Native) • Ukrainian (Native)
 
 **Bio:** [mailorq.com](https://mailorq.com)
 
